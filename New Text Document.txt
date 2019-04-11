@@ -1,0 +1,1 @@
+python -m scripts.label_image --graph=tf_files/retrained_graph.pb --input_height=299 --input_width=299 --input_layer=Mul --image=tf_files/africanman.jpg
